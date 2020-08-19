@@ -1,0 +1,777 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #6f6d72 url(http://www.phimmoizz.net/styles/vtlai/movie/img/body_bg.gif);
+}
+
+
+/* Section header style */
+
+.header-wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.header {
+    height: 75px;
+    width: 100%;
+    padding: 0 25px;
+    background: #000 url(http://www.phimmoizz.net/styles/vtlai/movie/img/header-bg.jpg) repeat-x;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.header-logo .logo {
+    width: 260px;
+    height: 55px;
+    display: inline-block;
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/image.png) 0px -320px;
+}
+
+.header-search {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.header-search input[type=text] {
+    float: left;
+    width: 325px;
+    height: 36px;
+    background-color: #303137;
+    border-radius: 100px;
+    color: #9f9f9f;
+    padding: 8px 40px 8px 15px;
+    outline: none;
+    border: 1px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.4), 1px 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.header-search button[type=submit] {
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/spotlight.png) no-repeat;
+    border: none;
+    position: relative;
+    width: 34px;
+    height: 32px;
+    top: 2px;
+    margin-left: -34px;
+    outline: none;
+    float: left;
+}
+
+
+/* Section navbar style */
+
+.navbar-wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+nav {
+    background: #323031 url(http://www.phimmoizz.net/styles/vtlai/movie/img/nav-bg.jpg) repeat-x;
+}
+
+li {
+    list-style-type: none;
+}
+
+#nav {
+    list-style: none;
+    position: relative;
+    display: flex;
+    font: 16px 'Anton';
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li a {
+    color: white;
+    padding: 11px 15px 7px;
+    display: block;
+    text-decoration: none;
+}
+
+#nav li .nav__item__list {
+    position: absolute;
+}
+
+.list {
+    display: none;
+}
+
+.nav__item__list {
+    z-index: 1000;
+}
+
+#nav li .list {
+    background-color: #292929;
+    border: 1px solid #79777A;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+#nav li a:hover {
+    background-color: #292929;
+    color: #DACB46;
+}
+
+#nav .nav__item .nav__item__list .list li a {
+    width: 150px;
+    font: 13px 'Arial';
+    text-transform: none;
+    transition: all 1s;
+}
+
+#nav .nav__item .nav__item__list .list li a:hover {
+    background-color: black;
+}
+
+.nav__item:hover .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*Section main style*/
+
+.col-lg-8 {
+    width: 670px;
+}
+
+.col-lg-4 {
+    width: 300px;
+}
+
+.main-wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.main__top__ad {
+    width: 980px;
+    height: 100px;
+    display: flex;
+}
+
+.main__top__ad__left {
+    width: 50%;
+    height: 100px;
+}
+
+.main__top__ad__left {
+    width: 50%;
+    height: 100px;
+}
+
+.main__movie__text {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/divider_line.gif) bottom repeat-x;
+}
+
+.main__movie__title {
+    color: #DACB46;
+    font: 25px 'Anton';
+    text-transform: uppercase;
+}
+
+.main__movie__list {
+    padding: 15px;
+}
+
+.block__wrapper {
+    position: relative;
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/item_bg.gif) repeat #4F4E52;
+    border-bottom: 1px solid #868489;
+    height: auto;
+    display: block;
+    width: 980px;
+}
+
+.main__movie__list1 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.list1__item {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.list1__item__bg {
+    width: 225px;
+    height: 300px;
+    position: relative;
+}
+
+.list1__item__content {
+    position: absolute;
+    bottom: 2px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    width: 100%;
+}
+
+.item__name1 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px 0;
+    color: #FF8040;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.item__name1:hover {
+    color: yellow;
+}
+
+.item__name2 {
+    color: white;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 5px 0;
+}
+
+.item__status1 {
+    position: absolute;
+    display: block;
+    color: white;
+    background: #A21D0A;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px;
+    left: 1px;
+    top: -235px;
+}
+
+.item__status1::after {
+    content: "";
+    float: right;
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #A21D0A;
+    border-style: solid;
+    border-width: 11px 0 12px 12px;
+}
+
+.item__status2 {
+    color: black;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #E3B71E;
+    border-radius: 1px;
+    position: absolute;
+}
+
+.list1__item li {
+    margin-right: 17px;
+}
+
+
+/* main > new movie */
+
+.movie__update {
+    margin-left: 10px;
+}
+
+.top-bookmark-wrapper {
+    width: 980px !important;
+    margin-left: 0 !important;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie__update {
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/item_bg.gif) repeat;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #868489;
+    max-height: 600px;
+    overflow: hidden;
+    width: 360px !important;
+}
+
+.update__tag_block {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    border-bottom: 1px solid #868489;
+    overflow: hidden;
+    width: 360px !important;
+}
+
+.update__tag_block li a {
+    text-decoration: none;
+    color: white;
+}
+
+.update__tag_block li {
+    width: 120px;
+    background: #2E2E2E;
+    padding: 10px;
+}
+
+.update__tag_block li:focus {
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/item_bg.gif) !important;
+    color: #46E1FF !important;
+}
+
+.list-new-movie-wrapper {
+    padding: 5px;
+    width: 100%;
+}
+
+.list-new-movie-wrapper li {
+    border-bottom: 1px dashed #555;
+    page-break-after: 6px 0px;
+    font-size: 12px;
+}
+
+.list-new-movie-wrapper li a {
+    text-decoration: none;
+}
+
+.movie-link .bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #CCC;
+}
+
+.movie {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 49px;
+}
+
+.movie-link {
+    display: flex;
+    align-items: center;
+}
+
+.bg {
+    margin-right: 10px;
+}
+
+.name1 {
+    color: white;
+    padding: 5px;
+}
+
+.link:hover {
+    color: yellow;
+}
+
+.name2 {
+    color: #666;
+}
+
+.eps {
+    color: #666;
+}
+
+
+/* main > bookmark movie */
+
+.bookmark-movie-wrapper .star-icon {
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/image.png) no-repeat 0px -81px;
+}
+
+.bookmark-movie-wrapper .bookmark-movie-title {
+    font: 25px 'Anton';
+    color: #DACB46;
+    text-transform: uppercase;
+    height: 32px;
+    padding-left: 35px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.bookemark-movie-btn {
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/item_bg.gif) repeat;
+    border-radius: 4px;
+    height: auto;
+}
+
+.bookmark-movie-wrapper a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+}
+
+.bookemark-movie-btn .fa-angle-double-right {
+    padding-left: 120px;
+}
+
+
+/* main > cinema new movie */
+
+.cinema-movie-wrapper {
+    margin: 0;
+}
+
+.cinema-movie-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.more-list {
+    display: inline-block;
+    pad: 15px 12px 0 px 0px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cinema-movie-list-wrapper ul {
+    padding: 0;
+}
+
+.cinema-movie-list-wrapper li {
+    display: inline-block;
+    width: 24%;
+    padding-right: 1%;
+    margin-bottom: 10px !important;
+}
+
+.cinema-movie-list-wrapper li a {
+    text-decoration: none;
+    color: #46E1FF;
+    display: inline-block;
+}
+
+.movie-item-wrapper {
+    padding: 2px;
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/item_bg.gif) repeat;
+    border-bottom: 1px solid #868489;
+    height: auto;
+    position: relative;
+}
+
+.movie-bg-wrapper {
+    height: auto !important;
+}
+
+.movie-bg {
+    display: block;
+    width: 100% !important;
+}
+
+.movie-description {
+    margin: 5px 5px;
+}
+
+.movie-title1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    color: #44e2ff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.movie-title1:hover {
+    color: yellow;
+}
+
+.movie-title2 {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    line-height: normal;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding-top: 4px;
+}
+
+.movie-long {
+    font-size: 12px;
+    color: #777;
+    line-height: normal;
+}
+
+.status {
+    position: absolute;
+    color: #fff;
+    background: #A21D0A;
+    font-size: 11px;
+    font-weight: bold;
+    clear: both;
+    padding: 4px;
+    text-shadow: 1px 1px 2px #111;
+    left: 2px;
+    top: 5px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.status::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -11px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #A21D0A;
+    border-style: solid;
+    border-width: 11px 0 11px 11px;
+}
+
+
+/* Face plugin */
+
+.face-plugin-wrapper {
+    background: white;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+.plugin-wrapper {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: url(https://scontent.fhan6-1.fna.fbcdn.net/v/t1.0-0/p200x200/103394299_2287608501388244_1355859528193327030_o.jpg?_nc_cat=1&_nc_sid=dd9801&_nc_ohc=4AZAfjB3ExIAX-OAhvU&_nc_ht=scontent.fhan6-1.fna&_nc_tp=6&oh=07616a2046c89b159feeda431c8cddaa&oe=5F5D0992) 0px -130px no-repeat;
+}
+
+.plugin-wrapper a {
+    display: inline-block;
+}
+
+.plugin-wrapper a img {
+    width: 54px;
+    height: 54px;
+    margin: 10px;
+}
+
+.like-button {
+    display: flex;
+    align-items: center;
+}
+
+.link-text {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.like {
+    color: white;
+    margin-left: 5px;
+}
+
+.like-button button[type="button"] {
+    display: flex;
+    align-items: center;
+}
+
+.fa-facebook-square {
+    color: #385898;
+    margin-right: 5px;
+}
+
+.face-fr-wrapper {
+    height: 63px;
+    background: #fff;
+    border-color: #EBEDF0 #dfe0e4 #d0d1d5;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    margin: 10px;
+    padding: 8px;
+}
+
+.fr-amount {
+    color: #4b4f56;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.face-ava {
+    width: 32px;
+    height: 32px;
+}
+
+
+/* New trailer */
+
+.right-box-wrapper {
+    margin-top: 20px;
+}
+
+.star-icon {
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/image.png) no-repeat 0px -81px;
+}
+
+.right-box-wrapper .star-icon {
+    font: 25px 'Anton';
+    color: #DACB46;
+    text-transform: uppercase;
+    height: 32px;
+    padding-left: 35px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.right-box-new-movie {
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/item_bg.gif) repeat;
+    border-radius: 4px;
+    height: auto;
+}
+
+.right-box-list {
+    padding: 5px;
+    height: 477px;
+    width: auto;
+    overflow: hidden;
+}
+
+.right-box-item {
+    border-bottom: 1px solid #333;
+    padding: 9px 5px;
+}
+
+.right-box-item-thumb {
+    width: 100px;
+    height: 133px;
+    background: url(http://image.phimmoizz.net/film/11311/poster.small.jpg) no-repeat;
+    background-size: cover;
+    border: 2px solid grey;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.right-box-item-link {
+    display: flex;
+}
+
+.right-box-item-vn {
+    font-size: 12px;
+    color: #46E1FF;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.right-box-item-en {
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.right-box-item-view {
+    font-size: 12px;
+    color: #46E1FF;
+}
+
+
+/*Section footer style*/
+
+.footer {
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/micro_carbon.png);
+    border-top: 3px solid #DACB46;
+    margin-top: 20px;
+    min-height: 100px;
+    padding: 20px 25px 15px;
+}
+
+.footer-wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 0 10px;
+}
+
+.footer .footer__logo {
+    background: url(http://www.phimmoizz.net/styles/vtlai/movie/img/image.png) 0px -446px no-repeat;
+    height: 55px;
+    min-width: 250px;
+}
+
+.footer__menu {
+    display: flex;
+    width: 500px;
+}
+
+.footer__link {
+    margin-right: 60px;
+    width: 150px;
+}
+
+.footer__link3 {
+    margin-right: 20px;
+}
+
+.footer__link__title {
+    font: 18px 'Anton';
+    color: #44E2FF;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer__link a {
+    color: white;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer__link a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+.footer__contact p {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
